@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import '../css/bootstrap.min.css'
 
 class Main extends React.Component {
   render() {
     return (
-      <h1>Hello World</h1>
+      <h3>Example heading <span className="label label-default">New</span></h3>
     );
   }
 }
